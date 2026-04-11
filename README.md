@@ -43,7 +43,7 @@ It demonstrates the **end-to-end request lifecycle**, including:
 
 ## 🚀 Architecture Flow
 
-[API Authentication Flow]([diagrams/auth-flow.png](https://mermaid.ai/app/projects/9652a548-c81c-4d7f-95e5-22c1a0c86f6e/diagrams/c8482d8c-fa78-45be-83de-2900b5427b45/version/v0.1/edit?shouldShowPopup=true))
+https://mermaid.ai/d/c8482d8c-fa78-45be-83de-2900b5427b45
 
 ---
 
