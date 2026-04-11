@@ -1,2 +1,4 @@
-# api-authentication-flow-guide
+🔐 Understanding how authentication works internally in real backend systems
+u# api-authentication-flow-guide
 A complete visual and conceptual guide to API authentication flow in backend systems using Spring Boot. Covers request lifecycle, authentication, authorization, and secure response handling.
+
