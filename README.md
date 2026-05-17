@@ -154,24 +154,18 @@ public class AuthFlowApplication {
             @RequestHeader(value = "Authorization", required = false) String token,
             @RequestBody String body) {
 
-        // Step 1: Input
         System.out.println("Request Received: " + body);
 
-        // Step 2: Authentication
         if (token == null || !token.equals("valid-token")) {
             return "401 Unauthorized - Invalid Token";
         }
 
-        // Step 3: Authorization
         String role = "USER";
         if (!role.equals("USER")) {
             return "403 Forbidden - Access Denied";
         }
 
-        // Step 4: Business Logic
         String result = "Data Processed Successfully";
-
-        // Step 5: Response
         return "200 OK - " + result;
     }
 }
